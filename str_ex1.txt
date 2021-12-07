@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+
+my_str1 = "Orange"
+my_str2 = "Apple"
+my_str3 = "Banana"
+my_str4 = input("\nPut in your favorite:  ")
+
+print("Print all in one line with right justified")
+print(f"{my_str1:>30}", f"{my_str2:>30}", f"{my_str3:>30}", f"{my_str4:>30}")
+print()
+print("Print all in 3 lines with right justified")
+print(f"{my_str1:>30}")
+print(f"{my_str2:>30}")
+print(f"{my_str3:>30}")
+print(f"{my_str4:>30}")
+print()
